@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../HelveticaNeue.ttf');
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background: #bcbcbc;
+
+}
+
+h1 {
+    position: absolute;
+    width: 179px;
+    height: 29px;
+    left: 149px;
+    top: 47px;
+    white-space: nowrap;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #1A1A1A;
+
+}
+
+h2 {
+    position: absolute;
+    width: 29px;
+    height: 24px;
+    left: 920px;
+    top: 49px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: right;
+
+    color: #1A1A1A;
+
+}
+
+hr {
+    position: absolute;
+    width: 798px;
+    height: 0px;
+    left: 150px;
+    top: 88px;
+
+    border: 1px solid #1A1A1A;
+
+}
+
+.container form {
+    margin-top: 157px;
+    margin-left: 150px;
+    width: 798px;
+    height: 500px;
+}
+
+.container form .fields {
+    display: flex;
+    justify-content: space-between;
+    top: 157px;
+    left: 150px;
+    gap: 56px;
+    position: absolute;
+    flex-wrap: nowrap;
+}
+
+form .fields .input-field {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-field input {
+    height: 48px;
+    width: 371px;
+    left: 24px;
+    top: 37px;
+    border-radius: 4px;
+
+    box-sizing: border-box;
+
+    width: 371px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+.input-field label {
+    height: 21px;
+    width: 371px;
+    left: 24px;
+    top: 8px;
+    border-radius: nullpx;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.input-field p {
+    height: 21px;
+    width: 371px;
+    left: 24px;
+    top: 93px;
+    border-radius: nullpx;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+
+    color: #2E2E2E;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.upload-photo label {
+
+    border-radius: nullpx;
+    position: absolute;
+
+    width: 232px;
+    height: 22px;
+    left: 150px;
+    top: 325px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #1A1A1A;
+
+
+}
+
+.upload-photo h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    gap: 10px;
+
+    position: absolute;
+    width: 107px;
+    height: 27px;
+    left: 401px;
+    top: 325px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    overflow: hidden;
+
+    background: #0E80BF;
+    border-radius: 4px;
+}
+
+.about-me title {
+    position: absolute;
+    height: 21px;
+    width: 798px;
+    left: 150px;
+    top: 401px;
+    border-radius: nullpx;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.about-me input {
+    box-sizing: border-box;
+
+    position: absolute;
+    height: 103px;
+    width: 798px;
+    left: 150px;
+    top: 430px;
+    border-radius: 4px;
+
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
