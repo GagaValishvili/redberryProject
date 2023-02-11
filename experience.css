@@ -74,12 +74,16 @@ hr {
     gap: 56px;
     position: absolute;
     flex-wrap: nowrap;
+    position: absolute;
+    left: 150px;
+    top: 438px;
 }
+
 
 form .fields .input-field {
     display: flex;
     flex-direction: column;
-
+    
 }
 
 .input-field input {
